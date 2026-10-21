@@ -13,7 +13,11 @@ précharger des ressources publiques afin d’éviter que la bande passante n’
 Aucun code de réalisation du sujet ne doit être développé à ce stade.
 
 Pendant les 90 minutes, Internet, la documentation et les téléchargements publics restent autorisés.
-Les assistants de code sont autorisés avec déclaration de leur usage dans la remise.
+L’utilisation de GitHub Copilot et de tout autre assistant de code ou assistant IA pour concevoir,
+générer, compléter, expliquer, modifier ou déboguer la réalisation du test est interdite, y compris
+depuis un site Web ou avec un modèle local. Désactivez les fonctions génératives de l’IDE avant T0.
+Les fonctions non génératives ordinaires de l’IDE restent autorisées.
+Le modèle local de l’application sert à l’analyse des données du sujet, pas à l’aide au développement.
 Le lancement final doit gérer automatiquement les ressources applicatives manquantes.
 
 Le temps de travail commence à l’ouverture de l’énoncé, une fois les prérequis vérifiés.

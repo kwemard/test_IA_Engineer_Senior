@@ -5,6 +5,10 @@
 Ce dépôt contient l’énoncé, les données et les documents métier nécessaires au test.
 La réalisation technique est entièrement à votre charge.
 
+**Règle du test : Copilot et tout autre assistant de code/assistant IA d’aide à la réalisation sont
+interdits. Les recherches Internet, la documentation et les téléchargements restent autorisés.**
+Le modèle local nécessaire à l’analyse des données du sujet reste obligatoire.
+
 ## Commencer
 
 ```bash

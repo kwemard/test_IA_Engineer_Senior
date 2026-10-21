@@ -1,5 +1,5 @@
 {
-  "version": "enonce-sans-aide-1.0",
+  "version": "enonce-sans-aide-1.1",
   "date_preparation": "2026-10-21",
   "files": [
     {
@@ -14,18 +14,18 @@
     },
     {
       "path": "INSTRUCTIONS_CANDIDAT.md",
-      "size_bytes": 8588,
-      "sha256": "2cb48676590871b0cf45737e382c29de20ae9070cb1db5181bbe8b1bd03119a5"
+      "size_bytes": 9817,
+      "sha256": "1167fd6ea70dff14c327dba0ebc3c7676fb5a2e6a021da1a69b769c592e65376"
     },
     {
       "path": "PREPARATION.md",
-      "size_bytes": 1269,
-      "sha256": "9108da7cdbc2cdd39cf1e56785efc1a24ddb833727bca63407422851191ad4be"
+      "size_bytes": 1683,
+      "sha256": "02f3a80767d570d1df71f3862dae36afc7d707e7dddaec471dff09cc845df5fa"
     },
     {
       "path": "README.md",
-      "size_bytes": 1129,
-      "sha256": "2fefd0f6a7a510e1f449b60afbdfa7bb7c12a477d9b0c6b47e11e4467bb7f355"
+      "size_bytes": 1420,
+      "sha256": "1fcfa6ac80009451b58f7d74f3ab5587bd05d85c6ecbd90ae4cf091415b3a91f"
     },
     {
       "path": "data/detentions_clients.json",

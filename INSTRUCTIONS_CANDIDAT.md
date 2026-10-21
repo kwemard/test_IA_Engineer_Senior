@@ -1,5 +1,22 @@
 # Énoncé — Assistant IA de conseil en assurance
 
+## Internet et assistants de code
+
+**L’utilisation de GitHub Copilot ou de tout autre assistant de code ou assistant IA pour réaliser
+le test est interdite**, qu’il soit intégré à l’IDE, accessible sur le Web ou exécuté localement.
+Cela inclut les suggestions et complétions génératives, la génération ou modification de code,
+l’aide à la conception, l’explication du code et le débogage par un assistant.
+
+**Internet reste autorisé** : recherches Web classiques, consultation de sites, forums et dépôts
+publics, lecture de toute documentation et téléchargement d’outils, de bibliothèques ou de modèles.
+Les exemples de code déjà publiés dans ces ressources peuvent être consultés et utilisés.
+Il est interdit de solliciter un assistant conversationnel ou une fonction de génération pour
+produire la réalisation du test, même si le service est gratuit.
+
+Cette interdiction concerne l’assistance au développement. Le modèle local utilisé par l’application
+pour analyser les données d’assurance fait partie du sujet et reste obligatoire ; il ne doit pas
+être détourné en assistant de code. Les fonctions non génératives ordinaires de l’IDE restent autorisées.
+
 ## 1. Contexte et objectif
 
 Vous devez réaliser un prototype d’assistant qui analyse la transcription d’un entretien entre un
@@ -124,7 +141,7 @@ et un README précisant :
 - les choix de réalisation, versions, modèle, licence et fonctionnement du cache ;
 - les preuves d’un même appel réel : entrée transmise au modèle, sortie brute et rapport produit ;
 - la récupération et l’utilisation du livrable CI ;
-- les limites, éléments inachevés et l’usage éventuel d’assistants de code.
+- les limites, éléments inachevés et les principales ressources documentaires consultées.
 
 Ne commitez pas les poids du modèle, environnements virtuels, caches, secrets ou clés d’accès.
 Un run lancé avant T+90 peut se terminer après, sans modification supplémentaire du code.
