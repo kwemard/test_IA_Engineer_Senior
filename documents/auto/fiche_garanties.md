@@ -13,7 +13,7 @@ Conditions : Usage privé ou trajets domicile-travail.
 Exclusions : Tournées professionnelles et livraison rémunérée.
 Limites : Pas de véhicule de remplacement.
 Prérequis : aucun contrat du catalogue requis.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.
 
 ## P02 — Mobilité Plus
 Type : option. Prix indicatif fictif : 9 euros/mois.
@@ -22,4 +22,4 @@ Conditions : Extension possible aux tournées professionnelles après acceptatio
 Exclusions : Livraison rémunérée et transport rémunéré de personnes.
 Limites : Véhicule de remplacement limité à trois jours.
 Prérequis : P01.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.

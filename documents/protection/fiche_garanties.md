@@ -13,4 +13,4 @@ Conditions : Litige postérieur à la souscription et au délai de carence.
 Exclusions : Litiges professionnels.
 Limites : Délai de carence de trois mois.
 Prérequis : aucun contrat du catalogue requis.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.

@@ -13,7 +13,7 @@ Conditions : Résidence principale déclarée.
 Exclusions : Vol de vélo sur la voie publique.
 Limites : Biens mobiliers : 15 000 euros ; franchise dégâts des eaux : 150 euros.
 Prérequis : aucun contrat du catalogue requis.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.
 
 ## P04 — Biens de Valeur
 Type : option. Prix indicatif fictif : 7 euros/mois.
@@ -22,4 +22,4 @@ Conditions : Inventaire et justificatifs de valeur à fournir.
 Exclusions : Biens entreposés dans un sous-sol non aménagé.
 Limites : Plafond de 5 000 euros.
 Prérequis : P03.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.

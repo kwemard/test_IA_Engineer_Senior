@@ -1,1 +1,0 @@
-# Bibliothèque standard suffisante pour le squelette. Ajouter et figer vos dépendances éventuelles.

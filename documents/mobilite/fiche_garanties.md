@@ -13,4 +13,4 @@ Conditions : Antivol agréé et attache à un point fixe.
 Exclusions : Vol sans preuve d’effraction de l’antivol.
 Limites : Plafond de 3 000 euros ; franchise de 100 euros.
 Prérequis : aucun contrat du catalogue requis.
-La présence dans le catalogue ne prouve pas l’éligibilité du client. Confirmer les données manquantes.
+L’étendue de la couverture est définie par les conditions, exclusions et limites décrites dans cette fiche.
