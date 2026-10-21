@@ -1,0 +1,37 @@
+# Renommer en ci.yml et compléter. Les TODO échouent volontairement.
+name: test-build-local-deploy
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify-and-deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Tests sans LLM
+        run: |
+          # TODO : installation si nécessaire, tests qui bloquent sur erreur.
+          exit 1
+      - name: Image applicative
+        run: |
+          # TODO : construire assurance-ci:${GITHUB_SHA}, enregistrer son identifiant.
+          exit 1
+      - name: Déploiement éphémère et smoke
+        run: |
+          # TODO : python deploy.py --ci --image assurance-ci:${GITHUB_SHA}
+          # Pas de modèle réel ni de poids ; le conteneur doit réellement répondre à /analyze.
+          exit 1
+      - name: Préparer la livraison de main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          # TODO : exporter l’image TESTÉE + manifest SHA/identifiant, sans rebuild.
+          exit 1
+      # TODO : actions/upload-artifact pour image/manifest validés sur main, rétention courte.
+      # TODO : logs utiles et nettoyage même en échec (condition always).
+      # Aucun secret de registre requis : publication GHCR facultative.

@@ -1,0 +1,123 @@
+{
+  "version": "exercice-2.0",
+  "documents": [
+    {
+      "doc_id": "FICHE-AUTO-V1",
+      "path": "documents/auto/fiche_garanties.md",
+      "famille": "auto",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P01",
+        "P02"
+      ],
+      "section_ids": [
+        "P01",
+        "P02"
+      ]
+    },
+    {
+      "doc_id": "GUIDE-AUTO-V1",
+      "path": "documents/auto/guide_recommandation.md",
+      "famille": "auto",
+      "type": "guide_recommandation",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P01",
+        "P02"
+      ],
+      "section_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-HABITATION-V1",
+      "path": "documents/habitation/fiche_garanties.md",
+      "famille": "habitation",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P03",
+        "P04"
+      ],
+      "section_ids": [
+        "P03",
+        "P04"
+      ]
+    },
+    {
+      "doc_id": "GUIDE-HABITATION-V1",
+      "path": "documents/habitation/guide_recommandation.md",
+      "famille": "habitation",
+      "type": "guide_recommandation",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P03",
+        "P04"
+      ],
+      "section_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-MOBILITE-V1",
+      "path": "documents/mobilite/fiche_garanties.md",
+      "famille": "mobilite",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P05"
+      ],
+      "section_ids": [
+        "P05"
+      ]
+    },
+    {
+      "doc_id": "GUIDE-MOBILITE-V1",
+      "path": "documents/mobilite/guide_recommandation.md",
+      "famille": "mobilite",
+      "type": "guide_recommandation",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P05"
+      ],
+      "section_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-PROTECTION-V1",
+      "path": "documents/protection/fiche_garanties.md",
+      "famille": "protection",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P06"
+      ],
+      "section_ids": [
+        "P06"
+      ]
+    },
+    {
+      "doc_id": "GUIDE-PROTECTION-V1",
+      "path": "documents/protection/guide_recommandation.md",
+      "famille": "protection",
+      "type": "guide_recommandation",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P06"
+      ],
+      "section_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    }
+  ]
+}

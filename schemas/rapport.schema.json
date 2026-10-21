@@ -1,0 +1,199 @@
+{
+  "type": "object",
+  "properties": {
+    "entretien_id": {
+      "type": "string"
+    },
+    "statut_execution": {
+      "enum": [
+        "ok",
+        "degrade",
+        "erreur"
+      ]
+    },
+    "synthese": {
+      "type": "string"
+    },
+    "besoins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "segment_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "description",
+          "segment_ids"
+        ]
+      }
+    },
+    "controles": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "regle_id": {
+            "enum": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05"
+            ]
+          },
+          "statut": {
+            "enum": [
+              "observe",
+              "a_completer",
+              "non_verifiable",
+              "non_applicable"
+            ]
+          },
+          "justification": {
+            "type": "string"
+          },
+          "segment_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "regle_id",
+          "statut",
+          "justification",
+          "segment_ids"
+        ]
+      }
+    },
+    "recommandations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "produit_id": {
+            "type": "string"
+          },
+          "motif": {
+            "type": "string"
+          },
+          "a_confirmer": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "section_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "doc_id",
+                "section_id"
+              ]
+            }
+          }
+        },
+        "required": [
+          "produit_id",
+          "motif",
+          "a_confirmer",
+          "sources"
+        ]
+      }
+    },
+    "sources_documentaires": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "section_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc_id",
+          "section_id"
+        ]
+      }
+    },
+    "questions_a_poser": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "reel",
+            "simule",
+            "sans_modele"
+          ]
+        },
+        "modele": {
+          "type": "string"
+        },
+        "appel_modele_effectue": {
+          "type": "boolean"
+        },
+        "duree_ms": {
+          "type": "number",
+          "minimum": 0
+        },
+        "avertissements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "mode",
+        "modele",
+        "appel_modele_effectue",
+        "duree_ms",
+        "avertissements"
+      ]
+    }
+  },
+  "required": [
+    "entretien_id",
+    "statut_execution",
+    "synthese",
+    "besoins",
+    "controles",
+    "recommandations",
+    "sources_documentaires",
+    "questions_a_poser",
+    "diagnostic"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rapport pédagogique assurance",
+  "$comment": "Le validateur Python vérifie en plus les références, unicité des règles, cohérence des modes et avertissements."
+}
